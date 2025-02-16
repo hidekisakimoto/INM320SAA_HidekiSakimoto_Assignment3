@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "scss": "^0.2.4"
+  },
+  "name": "inm320saa_hidekisakimoto_assignment3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "sass": "^1.85.0"
+  },
+  "scripts": {
+    "dev": "lite-server --baseDir=\"public\"",
+    "watch": "sass --watch src/scss:public/assets/css",
+    "start": "concurrently \"npm run watch\" \"npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
